@@ -19,10 +19,9 @@ class BasketController{
             //get Delivery Class
             let delivery=new DeliveryPlanFactory().getDelivery(deliveryPlan)
             total=delivery.getDeliveryFees(total)
-
+            //resolve result
             resolve( Math.floor(total*100)/100)// to get only 2 fractions
         })
-        
     }
 }
 

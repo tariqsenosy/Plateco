@@ -18,11 +18,8 @@ if(req.url==='/setPlatesIntoBasket' && req.method==="POST")//Handle request
           res.writeHead(505, { "Content-Type": "application/json" });
           res.end(JSON.stringify({message}));
          })  
-     })
-      
+     })   
   }
-
 res.end();
 })
-
 server.listen(PORT)
