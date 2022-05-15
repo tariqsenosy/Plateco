@@ -1,8 +1,6 @@
 class DeliveryPlan{//Parent offer
 
-    getDeliveryFees(totalBasketCost){
-        return totalBasketCost;
-        }
+    getDeliveryFees(totalBasketCost){  }
 
 }
 module.exports=DeliveryPlan
